@@ -40,1230 +40,158 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\zxing\AssemblyInfo.cs">
-      <Link>AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\BarcodeFormat.cs">
-      <Link>BarcodeFormat.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\Binarizer.cs">
-      <Link>Binarizer.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\BinaryBitmap.cs">
-      <Link>BinaryBitmap.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\AbstractDoCoMoResultParser.cs">
-      <Link>client\result\AbstractDoCoMoResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\AddressBookAUResultParser.cs">
-      <Link>client\result\AddressBookAUResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\AddressBookDoCoMoResultParser.cs">
-      <Link>client\result\AddressBookDoCoMoResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\AddressBookParsedResult.cs">
-      <Link>client\result\AddressBookParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\BizcardResultParser.cs">
-      <Link>client\result\BizcardResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\BookmarkDoCoMoResultParser.cs">
-      <Link>client\result\BookmarkDoCoMoResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\CalendarParsedResult.cs">
-      <Link>client\result\CalendarParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\EmailAddressParsedResult.cs">
-      <Link>client\result\EmailAddressParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\EmailAddressResultParser.cs">
-      <Link>client\result\EmailAddressResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\EmailDoCoMoResultParser.cs">
-      <Link>client\result\EmailDoCoMoResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\GeoParsedResult.cs">
-      <Link>client\result\GeoParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\GeoResultParser.cs">
-      <Link>client\result\GeoResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ISBNParsedResult.cs">
-      <Link>client\result\ISBNParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ISBNResultParser.cs">
-      <Link>client\result\ISBNResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\optional\AbstractNDEFResultParser.cs">
-      <Link>client\result\optional\AbstractNDEFResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\optional\NDEFRecord.cs">
-      <Link>client\result\optional\NDEFRecord.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\optional\NDEFSmartPosterParsedResult.cs">
-      <Link>client\result\optional\NDEFSmartPosterParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\optional\NDEFSmartPosterResultParser.cs">
-      <Link>client\result\optional\NDEFSmartPosterResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\optional\NDEFTextResultParser.cs">
-      <Link>client\result\optional\NDEFTextResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\optional\NDEFURIResultParser.cs">
-      <Link>client\result\optional\NDEFURIResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ParsedResult.cs">
-      <Link>client\result\ParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ParsedResultType.cs">
-      <Link>client\result\ParsedResultType.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ProductParsedResult.cs">
-      <Link>client\result\ProductParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ProductResultParser.cs">
-      <Link>client\result\ProductResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\ResultParser.cs">
-      <Link>client\result\ResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\SMSMMSResultParser.cs">
-      <Link>client\result\SMSMMSResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\SMSParsedResult.cs">
-      <Link>client\result\SMSParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\TelParsedResult.cs">
-      <Link>client\result\TelParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\TelResultParser.cs">
-      <Link>client\result\TelResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\TextParsedResult.cs">
-      <Link>client\result\TextParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\URIParsedResult.cs">
-      <Link>client\result\URIParsedResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\URIResultParser.cs">
-      <Link>client\result\URIResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\URLTOResultParser.cs">
-      <Link>client\result\URLTOResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\VCardResultParser.cs">
-      <Link>client\result\VCardResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\client\result\VEventResultParser.cs">
-      <Link>client\result\VEventResultParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\BitArray.cs">
-      <Link>common\BitArray.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\BitMatrix.cs">
-      <Link>common\BitMatrix.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\BitSource.cs">
-      <Link>common\BitSource.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\ByteArray.cs">
-      <Link>common\ByteArray.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\ByteMatrix.cs">
-      <Link>common\ByteMatrix.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\CharacterSetECI.cs">
-      <Link>common\CharacterSetECI.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\Collections.cs">
-      <Link>common\Collections.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\Comparator.cs">
-      <Link>common\Comparator.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\DecoderResult.cs">
-      <Link>common\DecoderResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\DefaultGridSampler.cs">
-      <Link>common\DefaultGridSampler.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\DetectorResult.cs">
-      <Link>common\DetectorResult.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\detector\MonochromeRectangleDetector.cs">
-      <Link>common\detector\MonochromeRectangleDetector.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\ECI.cs">
-      <Link>common\ECI.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\GlobalHistogramBinarizer.cs">
-      <Link>common\GlobalHistogramBinarizer.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\GridSampler.cs">
-      <Link>common\GridSampler.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\HybridBinarizer.cs">
-      <Link>common\HybridBinarizer.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\PerspectiveTransform.cs">
-      <Link>common\PerspectiveTransform.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\reedsolomon\GF256.cs">
-      <Link>common\reedsolomon\GF256.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\reedsolomon\GF256Poly.cs">
-      <Link>common\reedsolomon\GF256Poly.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\reedsolomon\ReedSolomonDecoder.cs">
-      <Link>common\reedsolomon\ReedSolomonDecoder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\reedsolomon\ReedSolomonEncoder.cs">
-      <Link>common\reedsolomon\ReedSolomonEncoder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\common\reedsolomon\ReedSolomonException.cs">
-      <Link>common\reedsolomon\ReedSolomonException.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\DataMatrixReader.cs">
-      <Link>datamatrix\DataMatrixReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\decoder\BitMatrixParser.cs">
-      <Link>datamatrix\decoder\BitMatrixParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\decoder\DataBlock.cs">
-      <Link>datamatrix\decoder\DataBlock.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\decoder\DecodedBitStreamParser.cs">
-      <Link>datamatrix\decoder\DecodedBitStreamParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\decoder\Decoder.cs">
-      <Link>datamatrix\decoder\Decoder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\decoder\Version.cs">
-      <Link>datamatrix\decoder\Version.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\datamatrix\detector\Detector.cs">
-      <Link>datamatrix\detector\Detector.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\DecodeHintType.cs">
-      <Link>DecodeHintType.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\EncodeHintType.cs">
-      <Link>EncodeHintType.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\LuminanceSource.cs">
-      <Link>LuminanceSource.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\MultiFormatReader.cs">
-      <Link>MultiFormatReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\MultiFormatWriter.cs">
-      <Link>MultiFormatWriter.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\multi\ByQuadrantReader.cs">
-      <Link>multi\ByQuadrantReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\multi\GenericMultipleBarcodeReader.cs">
-      <Link>multi\GenericMultipleBarcodeReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\multi\MultipleBarcodeReader.cs">
-      <Link>multi\MultipleBarcodeReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\multi\qrcode\detector\MultiDetector.cs">
-      <Link>multi\qrcode\detector\MultiDetector.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\multi\qrcode\detector\MultiFinderPatternFinder.cs">
-      <Link>multi\qrcode\detector\MultiFinderPatternFinder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\multi\qrcode\QRCodeMultiReader.cs">
-      <Link>multi\qrcode\QRCodeMultiReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\Code128Reader.cs">
-      <Link>oned\Code128Reader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\Code39Reader.cs">
-      <Link>oned\Code39Reader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\EAN13Reader.cs">
-      <Link>oned\EAN13Reader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\EAN13Writer.cs">
-      <Link>oned\EAN13Writer.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\EAN8Reader.cs">
-      <Link>oned\EAN8Reader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\EAN8Writer.cs">
-      <Link>oned\EAN8Writer.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\ITFReader.cs">
-      <Link>oned\ITFReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\MultiFormatOneDReader.cs">
-      <Link>oned\MultiFormatOneDReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\MultiFormatUPCEANReader.cs">
-      <Link>oned\MultiFormatUPCEANReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\OneDReader.cs">
-      <Link>oned\OneDReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\UPCAReader.cs">
-      <Link>oned\UPCAReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\UPCEANReader.cs">
-      <Link>oned\UPCEANReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\UPCEANWriter.cs">
-      <Link>oned\UPCEANWriter.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\oned\UPCEReader.cs">
-      <Link>oned\UPCEReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\pdf417\decoder\BitMatrixParser.cs">
-      <Link>pdf417\decoder\BitMatrixParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\pdf417\decoder\DecodedBitStreamParser.cs">
-      <Link>pdf417\decoder\DecodedBitStreamParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\pdf417\decoder\Decoder.cs">
-      <Link>pdf417\decoder\Decoder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\pdf417\detector\Detector.cs">
-      <Link>pdf417\detector\Detector.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\pdf417\PDF417Reader.cs">
-      <Link>pdf417\PDF417Reader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\BitMatrixParser.cs">
-      <Link>qrcode\decoder\BitMatrixParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\DataBlock.cs">
-      <Link>qrcode\decoder\DataBlock.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\DataMask.cs">
-      <Link>qrcode\decoder\DataMask.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\DecodedBitStreamParser.cs">
-      <Link>qrcode\decoder\DecodedBitStreamParser.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\Decoder.cs">
-      <Link>qrcode\decoder\Decoder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\ErrorCorrectionLevel.cs">
-      <Link>qrcode\decoder\ErrorCorrectionLevel.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\FormatInformation.cs">
-      <Link>qrcode\decoder\FormatInformation.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\Mode.cs">
-      <Link>qrcode\decoder\Mode.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\decoder\Version.cs">
-      <Link>qrcode\decoder\Version.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\detector\AlignmentPattern.cs">
-      <Link>qrcode\detector\AlignmentPattern.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\detector\AlignmentPatternFinder.cs">
-      <Link>qrcode\detector\AlignmentPatternFinder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\detector\Detector.cs">
-      <Link>qrcode\detector\Detector.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\detector\FinderPattern.cs">
-      <Link>qrcode\detector\FinderPattern.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\detector\FinderPatternFinder.cs">
-      <Link>qrcode\detector\FinderPatternFinder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\detector\FinderPatternInfo.cs">
-      <Link>qrcode\detector\FinderPatternInfo.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\encoder\BitVector.cs">
-      <Link>qrcode\encoder\BitVector.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\encoder\BlockPair.cs">
-      <Link>qrcode\encoder\BlockPair.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\encoder\Encoder.cs">
-      <Link>qrcode\encoder\Encoder.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\encoder\MaskUtil.cs">
-      <Link>qrcode\encoder\MaskUtil.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\encoder\MatrixUtil.cs">
-      <Link>qrcode\encoder\MatrixUtil.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\encoder\QRCode.cs">
-      <Link>qrcode\encoder\QRCode.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\QRCodeReader.cs">
-      <Link>qrcode\QRCodeReader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\qrcode\QRCodeWriter.cs">
-      <Link>qrcode\QRCodeWriter.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\Reader.cs">
-      <Link>Reader.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\ReaderException.cs">
-      <Link>ReaderException.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\Result.cs">
-      <Link>Result.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\ResultMetadataType.cs">
-      <Link>ResultMetadataType.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\ResultPoint.cs">
-      <Link>ResultPoint.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\ResultPointCallback.cs">
-      <Link>ResultPointCallback.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\RGBLuminanceSource.cs">
-      <Link>RGBLuminanceSource.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\SupportClass.cs">
-      <Link>SupportClass.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\Writer.cs">
-      <Link>Writer.cs</Link>
-    </Compile>
-    <Compile Include="..\zxing\WriterException.cs">
-      <Link>WriterException.cs</Link>
-    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="BarcodeFormat.cs" />
+    <Compile Include="Binarizer.cs" />
+    <Compile Include="BinaryBitmap.cs" />
     <Compile Include="Bitmap.cs" />
+    <Compile Include="client\result\AbstractDoCoMoResultParser.cs" />
+    <Compile Include="client\result\AddressBookAUResultParser.cs" />
+    <Compile Include="client\result\AddressBookDoCoMoResultParser.cs" />
+    <Compile Include="client\result\AddressBookParsedResult.cs" />
+    <Compile Include="client\result\BizcardResultParser.cs" />
+    <Compile Include="client\result\BookmarkDoCoMoResultParser.cs" />
+    <Compile Include="client\result\CalendarParsedResult.cs" />
+    <Compile Include="client\result\EmailAddressParsedResult.cs" />
+    <Compile Include="client\result\EmailAddressResultParser.cs" />
+    <Compile Include="client\result\EmailDoCoMoResultParser.cs" />
+    <Compile Include="client\result\GeoParsedResult.cs" />
+    <Compile Include="client\result\GeoResultParser.cs" />
+    <Compile Include="client\result\ISBNParsedResult.cs" />
+    <Compile Include="client\result\ISBNResultParser.cs" />
+    <Compile Include="client\result\optional\AbstractNDEFResultParser.cs" />
+    <Compile Include="client\result\optional\NDEFRecord.cs" />
+    <Compile Include="client\result\optional\NDEFSmartPosterParsedResult.cs" />
+    <Compile Include="client\result\optional\NDEFSmartPosterResultParser.cs" />
+    <Compile Include="client\result\optional\NDEFTextResultParser.cs" />
+    <Compile Include="client\result\optional\NDEFURIResultParser.cs" />
+    <Compile Include="client\result\ParsedResult.cs" />
+    <Compile Include="client\result\ParsedResultType.cs" />
+    <Compile Include="client\result\ProductParsedResult.cs" />
+    <Compile Include="client\result\ProductResultParser.cs" />
+    <Compile Include="client\result\ResultParser.cs" />
+    <Compile Include="client\result\SMSMMSResultParser.cs" />
+    <Compile Include="client\result\SMSParsedResult.cs" />
+    <Compile Include="client\result\TelParsedResult.cs" />
+    <Compile Include="client\result\TelResultParser.cs" />
+    <Compile Include="client\result\TextParsedResult.cs" />
+    <Compile Include="client\result\URIParsedResult.cs" />
+    <Compile Include="client\result\URIResultParser.cs" />
+    <Compile Include="client\result\URLTOResultParser.cs" />
+    <Compile Include="client\result\VCardResultParser.cs" />
+    <Compile Include="client\result\VEventResultParser.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="ColorConverter.cs" />
     <Compile Include="ColorTranslator.cs" />
+    <Compile Include="common\BitArray.cs" />
+    <Compile Include="common\BitMatrix.cs" />
+    <Compile Include="common\BitSource.cs" />
+    <Compile Include="common\ByteArray.cs" />
+    <Compile Include="common\ByteMatrix.cs" />
+    <Compile Include="common\CharacterSetECI.cs" />
+    <Compile Include="common\Collections.cs" />
+    <Compile Include="common\Comparator.cs" />
+    <Compile Include="common\DecoderResult.cs" />
+    <Compile Include="common\DefaultGridSampler.cs" />
+    <Compile Include="common\DetectorResult.cs" />
+    <Compile Include="common\detector\MonochromeRectangleDetector.cs" />
+    <Compile Include="common\ECI.cs" />
+    <Compile Include="common\GlobalHistogramBinarizer.cs" />
+    <Compile Include="common\GridSampler.cs" />
+    <Compile Include="common\HybridBinarizer.cs" />
+    <Compile Include="common\PerspectiveTransform.cs" />
+    <Compile Include="common\reedsolomon\GF256.cs" />
+    <Compile Include="common\reedsolomon\GF256Poly.cs" />
+    <Compile Include="common\reedsolomon\ReedSolomonDecoder.cs" />
+    <Compile Include="common\reedsolomon\ReedSolomonEncoder.cs" />
+    <Compile Include="common\reedsolomon\ReedSolomonException.cs" />
     <Compile Include="Consts.cs" />
+    <Compile Include="datamatrix\DataMatrixReader.cs" />
+    <Compile Include="datamatrix\decoder\BitMatrixParser.cs" />
+    <Compile Include="datamatrix\decoder\DataBlock.cs" />
+    <Compile Include="datamatrix\decoder\DecodedBitStreamParser.cs" />
+    <Compile Include="datamatrix\decoder\Decoder.cs" />
+    <Compile Include="datamatrix\decoder\Version.cs" />
+    <Compile Include="datamatrix\detector\Detector.cs" />
+    <Compile Include="DecodeHintType.cs" />
+    <Compile Include="EncodeHintType.cs" />
     <Compile Include="KnownColor.cs" />
     <Compile Include="KnownColors.cs" />
     <Compile Include="Locale.cs" />
+    <Compile Include="LuminanceSource.cs" />
     <Compile Include="MonoTODOAttribute.cs" />
+    <Compile Include="MultiFormatReader.cs" />
+    <Compile Include="MultiFormatWriter.cs" />
+    <Compile Include="multi\ByQuadrantReader.cs" />
+    <Compile Include="multi\GenericMultipleBarcodeReader.cs" />
+    <Compile Include="multi\MultipleBarcodeReader.cs" />
+    <Compile Include="multi\qrcode\detector\MultiDetector.cs" />
+    <Compile Include="multi\qrcode\detector\MultiFinderPatternFinder.cs" />
+    <Compile Include="multi\qrcode\QRCodeMultiReader.cs" />
+    <Compile Include="oned\Code128Reader.cs" />
+    <Compile Include="oned\Code39Reader.cs" />
+    <Compile Include="oned\EAN13Reader.cs" />
+    <Compile Include="oned\EAN13Writer.cs" />
+    <Compile Include="oned\EAN8Reader.cs" />
+    <Compile Include="oned\EAN8Writer.cs" />
+    <Compile Include="oned\ITFReader.cs" />
+    <Compile Include="oned\MultiFormatOneDReader.cs" />
+    <Compile Include="oned\MultiFormatUPCEANReader.cs" />
+    <Compile Include="oned\OneDReader.cs" />
+    <Compile Include="oned\UPCAReader.cs" />
+    <Compile Include="oned\UPCEANReader.cs" />
+    <Compile Include="oned\UPCEANWriter.cs" />
+    <Compile Include="oned\UPCEReader.cs" />
+    <Compile Include="pdf417\decoder\BitMatrixParser.cs" />
+    <Compile Include="pdf417\decoder\DecodedBitStreamParser.cs" />
+    <Compile Include="pdf417\decoder\Decoder.cs" />
+    <Compile Include="pdf417\detector\Detector.cs" />
+    <Compile Include="pdf417\PDF417Reader.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="PointConverter.cs" />
     <Compile Include="PointF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qrcode\decoder\BitMatrixParser.cs" />
+    <Compile Include="qrcode\decoder\DataBlock.cs" />
+    <Compile Include="qrcode\decoder\DataMask.cs" />
+    <Compile Include="qrcode\decoder\DecodedBitStreamParser.cs" />
+    <Compile Include="qrcode\decoder\Decoder.cs" />
+    <Compile Include="qrcode\decoder\ErrorCorrectionLevel.cs" />
+    <Compile Include="qrcode\decoder\FormatInformation.cs" />
+    <Compile Include="qrcode\decoder\Mode.cs" />
+    <Compile Include="qrcode\decoder\Version.cs" />
+    <Compile Include="qrcode\detector\AlignmentPattern.cs" />
+    <Compile Include="qrcode\detector\AlignmentPatternFinder.cs" />
+    <Compile Include="qrcode\detector\Detector.cs" />
+    <Compile Include="qrcode\detector\FinderPattern.cs" />
+    <Compile Include="qrcode\detector\FinderPatternFinder.cs" />
+    <Compile Include="qrcode\detector\FinderPatternInfo.cs" />
+    <Compile Include="qrcode\encoder\BitVector.cs" />
+    <Compile Include="qrcode\encoder\BlockPair.cs" />
+    <Compile Include="qrcode\encoder\Encoder.cs" />
+    <Compile Include="qrcode\encoder\MaskUtil.cs" />
+    <Compile Include="qrcode\encoder\MatrixUtil.cs" />
+    <Compile Include="qrcode\encoder\QRCode.cs" />
+    <Compile Include="qrcode\QRCodeReader.cs" />
+    <Compile Include="qrcode\QRCodeWriter.cs" />
+    <Compile Include="Reader.cs" />
+    <Compile Include="ReaderException.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="RectangleConverter.cs" />
     <Compile Include="RectangleF.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="ResultMetadataType.cs" />
+    <Compile Include="ResultPoint.cs" />
+    <Compile Include="ResultPointCallback.cs" />
+    <Compile Include="RGBLuminanceSource.cs" />
     <Compile Include="Size.cs" />
     <Compile Include="SizeConverter.cs" />
     <Compile Include="SizeF.cs" />
     <Compile Include="SizeFConverter.cs" />
+    <Compile Include="SupportClass.cs" />
     <Compile Include="SystemColors.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\zxing\client\.svn\all-wcprops">
-      <Link>client\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\client\.svn\entries">
-      <Link>client\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\all-wcprops">
-      <Link>client\result\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\entries">
-      <Link>client\result\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\AbstractDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\AbstractDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\AddressBookAUResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\AddressBookAUResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\AddressBookDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\AddressBookDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\AddressBookParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\AddressBookParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\BizcardResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\BizcardResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\BookmarkDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\BookmarkDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\CalendarParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\CalendarParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\EmailAddressParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\EmailAddressParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\EmailAddressResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\EmailAddressResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\EmailDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\EmailDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\GeoParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\GeoParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\GeoResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\GeoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ISBNParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ISBNParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ISBNResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ISBNResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ParsedResultType.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ParsedResultType.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ProductParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ProductParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ProductResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ProductResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\ResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\ResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\SMSMMSResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\SMSMMSResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\SMSParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\SMSParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\TelParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\TelParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\TelResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\TelResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\TextParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\TextParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\URIParsedResult.cs.svn-base">
-      <Link>client\result\.svn\prop-base\URIParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\URIResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\URIResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\URLTOResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\URLTOResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\VCardResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\VCardResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\prop-base\VEventResultParser.cs.svn-base">
-      <Link>client\result\.svn\prop-base\VEventResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\AbstractDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\AbstractDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\AddressBookAUResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\AddressBookAUResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\AddressBookDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\AddressBookDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\AddressBookParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\AddressBookParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\BizcardResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\BizcardResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\BookmarkDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\BookmarkDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\CalendarParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\CalendarParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\EmailAddressParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\EmailAddressParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\EmailAddressResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\EmailAddressResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\EmailDoCoMoResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\EmailDoCoMoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\GeoParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\GeoParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\GeoResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\GeoResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ISBNParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\ISBNParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ISBNResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\ISBNResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\ParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ParsedResultType.cs.svn-base">
-      <Link>client\result\.svn\text-base\ParsedResultType.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ProductParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\ProductParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ProductResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\ProductResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\ResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\ResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\SMSMMSResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\SMSMMSResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\SMSParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\SMSParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\TelParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\TelParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\TelResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\TelResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\TextParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\TextParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\URIParsedResult.cs.svn-base">
-      <Link>client\result\.svn\text-base\URIParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\URIResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\URIResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\URLTOResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\URLTOResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\VCardResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\VCardResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\.svn\text-base\VEventResultParser.cs.svn-base">
-      <Link>client\result\.svn\text-base\VEventResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\all-wcprops">
-      <Link>client\result\optional\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\entries">
-      <Link>client\result\optional\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\prop-base\AbstractNDEFResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\prop-base\AbstractNDEFResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\prop-base\NDEFRecord.cs.svn-base">
-      <Link>client\result\optional\.svn\prop-base\NDEFRecord.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\prop-base\NDEFSmartPosterParsedResult.cs.svn-base">
-      <Link>client\result\optional\.svn\prop-base\NDEFSmartPosterParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\prop-base\NDEFSmartPosterResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\prop-base\NDEFSmartPosterResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\prop-base\NDEFTextResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\prop-base\NDEFTextResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\prop-base\NDEFURIResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\prop-base\NDEFURIResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\text-base\AbstractNDEFResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\text-base\AbstractNDEFResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\text-base\NDEFRecord.cs.svn-base">
-      <Link>client\result\optional\.svn\text-base\NDEFRecord.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\text-base\NDEFSmartPosterParsedResult.cs.svn-base">
-      <Link>client\result\optional\.svn\text-base\NDEFSmartPosterParsedResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\text-base\NDEFSmartPosterResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\text-base\NDEFSmartPosterResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\text-base\NDEFTextResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\text-base\NDEFTextResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\client\result\optional\.svn\text-base\NDEFURIResultParser.cs.svn-base">
-      <Link>client\result\optional\.svn\text-base\NDEFURIResultParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\all-wcprops">
-      <Link>common\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\entries">
-      <Link>common\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\BitArray.cs.svn-base">
-      <Link>common\.svn\prop-base\BitArray.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\BitMatrix.cs.svn-base">
-      <Link>common\.svn\prop-base\BitMatrix.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\BitSource.cs.svn-base">
-      <Link>common\.svn\prop-base\BitSource.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\ByteArray.cs.svn-base">
-      <Link>common\.svn\prop-base\ByteArray.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\ByteMatrix.cs.svn-base">
-      <Link>common\.svn\prop-base\ByteMatrix.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\CharacterSetECI.cs.svn-base">
-      <Link>common\.svn\prop-base\CharacterSetECI.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\Collections.cs.svn-base">
-      <Link>common\.svn\prop-base\Collections.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\Comparator.cs.svn-base">
-      <Link>common\.svn\prop-base\Comparator.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\DecoderResult.cs.svn-base">
-      <Link>common\.svn\prop-base\DecoderResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\DefaultGridSampler.cs.svn-base">
-      <Link>common\.svn\prop-base\DefaultGridSampler.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\DetectorResult.cs.svn-base">
-      <Link>common\.svn\prop-base\DetectorResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\ECI.cs.svn-base">
-      <Link>common\.svn\prop-base\ECI.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\GlobalHistogramBinarizer.cs.svn-base">
-      <Link>common\.svn\prop-base\GlobalHistogramBinarizer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\GridSampler.cs.svn-base">
-      <Link>common\.svn\prop-base\GridSampler.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\HybridBinarizer.cs.svn-base">
-      <Link>common\.svn\prop-base\HybridBinarizer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\prop-base\PerspectiveTransform.cs.svn-base">
-      <Link>common\.svn\prop-base\PerspectiveTransform.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\BitArray.cs.svn-base">
-      <Link>common\.svn\text-base\BitArray.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\BitMatrix.cs.svn-base">
-      <Link>common\.svn\text-base\BitMatrix.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\BitSource.cs.svn-base">
-      <Link>common\.svn\text-base\BitSource.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\ByteArray.cs.svn-base">
-      <Link>common\.svn\text-base\ByteArray.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\ByteMatrix.cs.svn-base">
-      <Link>common\.svn\text-base\ByteMatrix.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\CharacterSetECI.cs.svn-base">
-      <Link>common\.svn\text-base\CharacterSetECI.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\Collections.cs.svn-base">
-      <Link>common\.svn\text-base\Collections.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\Comparator.cs.svn-base">
-      <Link>common\.svn\text-base\Comparator.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\DecoderResult.cs.svn-base">
-      <Link>common\.svn\text-base\DecoderResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\DefaultGridSampler.cs.svn-base">
-      <Link>common\.svn\text-base\DefaultGridSampler.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\DetectorResult.cs.svn-base">
-      <Link>common\.svn\text-base\DetectorResult.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\ECI.cs.svn-base">
-      <Link>common\.svn\text-base\ECI.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\GlobalHistogramBinarizer.cs.svn-base">
-      <Link>common\.svn\text-base\GlobalHistogramBinarizer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\GridSampler.cs.svn-base">
-      <Link>common\.svn\text-base\GridSampler.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\HybridBinarizer.cs.svn-base">
-      <Link>common\.svn\text-base\HybridBinarizer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\.svn\text-base\PerspectiveTransform.cs.svn-base">
-      <Link>common\.svn\text-base\PerspectiveTransform.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\detector\.svn\all-wcprops">
-      <Link>common\detector\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\common\detector\.svn\entries">
-      <Link>common\detector\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\common\detector\.svn\prop-base\MonochromeRectangleDetector.cs.svn-base">
-      <Link>common\detector\.svn\prop-base\MonochromeRectangleDetector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\detector\.svn\text-base\MonochromeRectangleDetector.cs.svn-base">
-      <Link>common\detector\.svn\text-base\MonochromeRectangleDetector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\all-wcprops">
-      <Link>common\reedsolomon\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\entries">
-      <Link>common\reedsolomon\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\prop-base\GF256.cs.svn-base">
-      <Link>common\reedsolomon\.svn\prop-base\GF256.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\prop-base\GF256Poly.cs.svn-base">
-      <Link>common\reedsolomon\.svn\prop-base\GF256Poly.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\prop-base\ReedSolomonDecoder.cs.svn-base">
-      <Link>common\reedsolomon\.svn\prop-base\ReedSolomonDecoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\prop-base\ReedSolomonEncoder.cs.svn-base">
-      <Link>common\reedsolomon\.svn\prop-base\ReedSolomonEncoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\prop-base\ReedSolomonException.cs.svn-base">
-      <Link>common\reedsolomon\.svn\prop-base\ReedSolomonException.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\text-base\GF256.cs.svn-base">
-      <Link>common\reedsolomon\.svn\text-base\GF256.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\text-base\GF256Poly.cs.svn-base">
-      <Link>common\reedsolomon\.svn\text-base\GF256Poly.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\text-base\ReedSolomonDecoder.cs.svn-base">
-      <Link>common\reedsolomon\.svn\text-base\ReedSolomonDecoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\text-base\ReedSolomonEncoder.cs.svn-base">
-      <Link>common\reedsolomon\.svn\text-base\ReedSolomonEncoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\common\reedsolomon\.svn\text-base\ReedSolomonException.cs.svn-base">
-      <Link>common\reedsolomon\.svn\text-base\ReedSolomonException.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\.svn\all-wcprops">
-      <Link>datamatrix\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\.svn\entries">
-      <Link>datamatrix\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\.svn\prop-base\DataMatrixReader.cs.svn-base">
-      <Link>datamatrix\.svn\prop-base\DataMatrixReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\.svn\text-base\DataMatrixReader.cs.svn-base">
-      <Link>datamatrix\.svn\text-base\DataMatrixReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\all-wcprops">
-      <Link>datamatrix\decoder\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\entries">
-      <Link>datamatrix\decoder\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\prop-base\DataBlock.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\prop-base\DataBlock.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\prop-base\Decoder.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\prop-base\Decoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\prop-base\Version.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\prop-base\Version.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\text-base\BitMatrixParser.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\text-base\BitMatrixParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\text-base\DataBlock.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\text-base\DataBlock.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\text-base\Decoder.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\text-base\Decoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\decoder\.svn\text-base\Version.cs.svn-base">
-      <Link>datamatrix\decoder\.svn\text-base\Version.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\detector\.svn\all-wcprops">
-      <Link>datamatrix\detector\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\detector\.svn\entries">
-      <Link>datamatrix\detector\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\detector\.svn\prop-base\Detector.cs.svn-base">
-      <Link>datamatrix\detector\.svn\prop-base\Detector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\datamatrix\detector\.svn\text-base\Detector.cs.svn-base">
-      <Link>datamatrix\detector\.svn\text-base\Detector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\all-wcprops">
-      <Link>multi\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\entries">
-      <Link>multi\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\prop-base\ByQuadrantReader.cs.svn-base">
-      <Link>multi\.svn\prop-base\ByQuadrantReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\prop-base\GenericMultipleBarcodeReader.cs.svn-base">
-      <Link>multi\.svn\prop-base\GenericMultipleBarcodeReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\prop-base\MultipleBarcodeReader.cs.svn-base">
-      <Link>multi\.svn\prop-base\MultipleBarcodeReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\text-base\ByQuadrantReader.cs.svn-base">
-      <Link>multi\.svn\text-base\ByQuadrantReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\text-base\GenericMultipleBarcodeReader.cs.svn-base">
-      <Link>multi\.svn\text-base\GenericMultipleBarcodeReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\.svn\text-base\MultipleBarcodeReader.cs.svn-base">
-      <Link>multi\.svn\text-base\MultipleBarcodeReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\.svn\all-wcprops">
-      <Link>multi\qrcode\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\.svn\entries">
-      <Link>multi\qrcode\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\.svn\prop-base\QRCodeMultiReader.cs.svn-base">
-      <Link>multi\qrcode\.svn\prop-base\QRCodeMultiReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\.svn\text-base\QRCodeMultiReader.cs.svn-base">
-      <Link>multi\qrcode\.svn\text-base\QRCodeMultiReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\detector\.svn\all-wcprops">
-      <Link>multi\qrcode\detector\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\detector\.svn\entries">
-      <Link>multi\qrcode\detector\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\detector\.svn\prop-base\MultiDetector.cs.svn-base">
-      <Link>multi\qrcode\detector\.svn\prop-base\MultiDetector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\detector\.svn\prop-base\MultiFinderPatternFinder.cs.svn-base">
-      <Link>multi\qrcode\detector\.svn\prop-base\MultiFinderPatternFinder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\detector\.svn\text-base\MultiDetector.cs.svn-base">
-      <Link>multi\qrcode\detector\.svn\text-base\MultiDetector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\multi\qrcode\detector\.svn\text-base\MultiFinderPatternFinder.cs.svn-base">
-      <Link>multi\qrcode\detector\.svn\text-base\MultiFinderPatternFinder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\all-wcprops">
-      <Link>oned\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\entries">
-      <Link>oned\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\Code128Reader.cs.svn-base">
-      <Link>oned\.svn\prop-base\Code128Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\Code39Reader.cs.svn-base">
-      <Link>oned\.svn\prop-base\Code39Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\EAN13Reader.cs.svn-base">
-      <Link>oned\.svn\prop-base\EAN13Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\EAN13Writer.cs.svn-base">
-      <Link>oned\.svn\prop-base\EAN13Writer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\EAN8Reader.cs.svn-base">
-      <Link>oned\.svn\prop-base\EAN8Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\EAN8Writer.cs.svn-base">
-      <Link>oned\.svn\prop-base\EAN8Writer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\ITFReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\ITFReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\MultiFormatOneDReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\MultiFormatOneDReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\MultiFormatUPCEANReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\MultiFormatUPCEANReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\OneDReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\OneDReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\UPCAReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\UPCAReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\UPCEANReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\UPCEANReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\UPCEANWriter.cs.svn-base">
-      <Link>oned\.svn\prop-base\UPCEANWriter.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\prop-base\UPCEReader.cs.svn-base">
-      <Link>oned\.svn\prop-base\UPCEReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\Code128Reader.cs.svn-base">
-      <Link>oned\.svn\text-base\Code128Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\Code39Reader.cs.svn-base">
-      <Link>oned\.svn\text-base\Code39Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\EAN13Reader.cs.svn-base">
-      <Link>oned\.svn\text-base\EAN13Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\EAN13Writer.cs.svn-base">
-      <Link>oned\.svn\text-base\EAN13Writer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\EAN8Reader.cs.svn-base">
-      <Link>oned\.svn\text-base\EAN8Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\EAN8Writer.cs.svn-base">
-      <Link>oned\.svn\text-base\EAN8Writer.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\ITFReader.cs.svn-base">
-      <Link>oned\.svn\text-base\ITFReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\MultiFormatOneDReader.cs.svn-base">
-      <Link>oned\.svn\text-base\MultiFormatOneDReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\MultiFormatUPCEANReader.cs.svn-base">
-      <Link>oned\.svn\text-base\MultiFormatUPCEANReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\OneDReader.cs.svn-base">
-      <Link>oned\.svn\text-base\OneDReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\UPCAReader.cs.svn-base">
-      <Link>oned\.svn\text-base\UPCAReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\UPCEANReader.cs.svn-base">
-      <Link>oned\.svn\text-base\UPCEANReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\UPCEANWriter.cs.svn-base">
-      <Link>oned\.svn\text-base\UPCEANWriter.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\oned\.svn\text-base\UPCEReader.cs.svn-base">
-      <Link>oned\.svn\text-base\UPCEReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\.svn\all-wcprops">
-      <Link>pdf417\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\pdf417\.svn\entries">
-      <Link>pdf417\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\pdf417\.svn\prop-base\PDF417Reader.cs.svn-base">
-      <Link>pdf417\.svn\prop-base\PDF417Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\.svn\text-base\PDF417Reader.cs.svn-base">
-      <Link>pdf417\.svn\text-base\PDF417Reader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\all-wcprops">
-      <Link>pdf417\decoder\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\entries">
-      <Link>pdf417\decoder\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base">
-      <Link>pdf417\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base">
-      <Link>pdf417\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\prop-base\Decoder.cs.svn-base">
-      <Link>pdf417\decoder\.svn\prop-base\Decoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\text-base\BitMatrixParser.cs.svn-base">
-      <Link>pdf417\decoder\.svn\text-base\BitMatrixParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base">
-      <Link>pdf417\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\decoder\.svn\text-base\Decoder.cs.svn-base">
-      <Link>pdf417\decoder\.svn\text-base\Decoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\detector\.svn\all-wcprops">
-      <Link>pdf417\detector\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\pdf417\detector\.svn\entries">
-      <Link>pdf417\detector\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\pdf417\detector\.svn\prop-base\Detector.cs.svn-base">
-      <Link>pdf417\detector\.svn\prop-base\Detector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\pdf417\detector\.svn\text-base\Detector.cs.svn-base">
-      <Link>pdf417\detector\.svn\text-base\Detector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\.svn\all-wcprops">
-      <Link>qrcode\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\qrcode\.svn\entries">
-      <Link>qrcode\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\qrcode\.svn\prop-base\QRCodeReader.cs.svn-base">
-      <Link>qrcode\.svn\prop-base\QRCodeReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\.svn\prop-base\QRCodeWriter.cs.svn-base">
-      <Link>qrcode\.svn\prop-base\QRCodeWriter.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\.svn\text-base\QRCodeReader.cs.svn-base">
-      <Link>qrcode\.svn\text-base\QRCodeReader.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\.svn\text-base\QRCodeWriter.cs.svn-base">
-      <Link>qrcode\.svn\text-base\QRCodeWriter.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\all-wcprops">
-      <Link>qrcode\decoder\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\entries">
-      <Link>qrcode\decoder\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\DataBlock.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\DataBlock.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\DataMask.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\DataMask.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\Decoder.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\Decoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\ErrorCorrectionLevel.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\ErrorCorrectionLevel.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\FormatInformation.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\FormatInformation.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\Mode.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\Mode.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\prop-base\Version.cs.svn-base">
-      <Link>qrcode\decoder\.svn\prop-base\Version.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\BitMatrixParser.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\BitMatrixParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\DataBlock.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\DataBlock.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\DataMask.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\DataMask.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\Decoder.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\Decoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\ErrorCorrectionLevel.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\ErrorCorrectionLevel.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\FormatInformation.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\FormatInformation.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\Mode.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\Mode.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\decoder\.svn\text-base\Version.cs.svn-base">
-      <Link>qrcode\decoder\.svn\text-base\Version.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\all-wcprops">
-      <Link>qrcode\detector\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\entries">
-      <Link>qrcode\detector\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\prop-base\AlignmentPattern.cs.svn-base">
-      <Link>qrcode\detector\.svn\prop-base\AlignmentPattern.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\prop-base\AlignmentPatternFinder.cs.svn-base">
-      <Link>qrcode\detector\.svn\prop-base\AlignmentPatternFinder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\prop-base\Detector.cs.svn-base">
-      <Link>qrcode\detector\.svn\prop-base\Detector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\prop-base\FinderPattern.cs.svn-base">
-      <Link>qrcode\detector\.svn\prop-base\FinderPattern.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\prop-base\FinderPatternFinder.cs.svn-base">
-      <Link>qrcode\detector\.svn\prop-base\FinderPatternFinder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\prop-base\FinderPatternInfo.cs.svn-base">
-      <Link>qrcode\detector\.svn\prop-base\FinderPatternInfo.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\text-base\AlignmentPattern.cs.svn-base">
-      <Link>qrcode\detector\.svn\text-base\AlignmentPattern.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\text-base\AlignmentPatternFinder.cs.svn-base">
-      <Link>qrcode\detector\.svn\text-base\AlignmentPatternFinder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\text-base\Detector.cs.svn-base">
-      <Link>qrcode\detector\.svn\text-base\Detector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\text-base\FinderPattern.cs.svn-base">
-      <Link>qrcode\detector\.svn\text-base\FinderPattern.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\text-base\FinderPatternFinder.cs.svn-base">
-      <Link>qrcode\detector\.svn\text-base\FinderPatternFinder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\detector\.svn\text-base\FinderPatternInfo.cs.svn-base">
-      <Link>qrcode\detector\.svn\text-base\FinderPatternInfo.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\all-wcprops">
-      <Link>qrcode\encoder\.svn\all-wcprops</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\entries">
-      <Link>qrcode\encoder\.svn\entries</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\prop-base\BitVector.cs.svn-base">
-      <Link>qrcode\encoder\.svn\prop-base\BitVector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\prop-base\BlockPair.cs.svn-base">
-      <Link>qrcode\encoder\.svn\prop-base\BlockPair.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\prop-base\Encoder.cs.svn-base">
-      <Link>qrcode\encoder\.svn\prop-base\Encoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\prop-base\MaskUtil.cs.svn-base">
-      <Link>qrcode\encoder\.svn\prop-base\MaskUtil.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\prop-base\MatrixUtil.cs.svn-base">
-      <Link>qrcode\encoder\.svn\prop-base\MatrixUtil.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\prop-base\QRCode.cs.svn-base">
-      <Link>qrcode\encoder\.svn\prop-base\QRCode.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\text-base\BitVector.cs.svn-base">
-      <Link>qrcode\encoder\.svn\text-base\BitVector.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\text-base\BlockPair.cs.svn-base">
-      <Link>qrcode\encoder\.svn\text-base\BlockPair.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\text-base\Encoder.cs.svn-base">
-      <Link>qrcode\encoder\.svn\text-base\Encoder.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\text-base\MaskUtil.cs.svn-base">
-      <Link>qrcode\encoder\.svn\text-base\MaskUtil.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\text-base\MatrixUtil.cs.svn-base">
-      <Link>qrcode\encoder\.svn\text-base\MatrixUtil.cs.svn-base</Link>
-    </None>
-    <None Include="..\zxing\qrcode\encoder\.svn\text-base\QRCode.cs.svn-base">
-      <Link>qrcode\encoder\.svn\text-base\QRCode.cs.svn-base</Link>
-    </None>
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="..\zxing\obj\Debug\zxing.csproj.FileListAbsolute.txt">
-      <Link>obj\Debug\zxing.csproj.FileListAbsolute.txt</Link>
-    </Content>
-    <Content Include="..\zxing\obj\Debug\zxing.dll">
-      <Link>obj\Debug\zxing.dll</Link>
-    </Content>
-    <Content Include="..\zxing\obj\Debug\zxing.pdb">
-      <Link>obj\Debug\zxing.pdb</Link>
-    </Content>
-    <Content Include="obj\Debug\zxing.MonoDroid.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\zxing.MonoDroid.dll" />
-    <Content Include="obj\Debug\zxing.MonoDroid.pdb" />
+    <Compile Include="Writer.cs" />
+    <Compile Include="WriterException.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\.svn\prop-base\" />
@@ -1316,7 +244,6 @@
     <Folder Include="multi\qrcode\detector\.svn\tmp\prop-base\" />
     <Folder Include="multi\qrcode\detector\.svn\tmp\props\" />
     <Folder Include="multi\qrcode\detector\.svn\tmp\text-base\" />
-    <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="oned\.svn\props\" />
     <Folder Include="oned\.svn\tmp\prop-base\" />
     <Folder Include="oned\.svn\tmp\props\" />
@@ -1350,10 +277,276 @@
     <Folder Include="qrcode\encoder\.svn\tmp\props\" />
     <Folder Include="qrcode\encoder\.svn\tmp\text-base\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="client\.svn\all-wcprops" />
+    <None Include="client\.svn\entries" />
+    <None Include="client\result\.svn\all-wcprops" />
+    <None Include="client\result\.svn\entries" />
+    <None Include="client\result\.svn\prop-base\AbstractDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\AddressBookAUResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\AddressBookDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\AddressBookParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\BizcardResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\BookmarkDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\CalendarParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\EmailAddressParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\EmailAddressResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\EmailDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\GeoParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\GeoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ISBNParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ISBNResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ParsedResultType.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ProductParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ProductResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\ResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\SMSMMSResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\SMSParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\TelParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\TelResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\TextParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\URIParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\URIResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\URLTOResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\VCardResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\prop-base\VEventResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\AbstractDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\AddressBookAUResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\AddressBookDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\AddressBookParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\BizcardResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\BookmarkDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\CalendarParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\EmailAddressParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\EmailAddressResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\EmailDoCoMoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\GeoParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\GeoResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ISBNParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ISBNResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ParsedResultType.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ProductParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ProductResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\ResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\SMSMMSResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\SMSParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\TelParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\TelResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\TextParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\URIParsedResult.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\URIResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\URLTOResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\VCardResultParser.cs.svn-base" />
+    <None Include="client\result\.svn\text-base\VEventResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\all-wcprops" />
+    <None Include="client\result\optional\.svn\entries" />
+    <None Include="client\result\optional\.svn\prop-base\AbstractNDEFResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\prop-base\NDEFRecord.cs.svn-base" />
+    <None Include="client\result\optional\.svn\prop-base\NDEFSmartPosterParsedResult.cs.svn-base" />
+    <None Include="client\result\optional\.svn\prop-base\NDEFSmartPosterResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\prop-base\NDEFTextResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\prop-base\NDEFURIResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\text-base\AbstractNDEFResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\text-base\NDEFRecord.cs.svn-base" />
+    <None Include="client\result\optional\.svn\text-base\NDEFSmartPosterParsedResult.cs.svn-base" />
+    <None Include="client\result\optional\.svn\text-base\NDEFSmartPosterResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\text-base\NDEFTextResultParser.cs.svn-base" />
+    <None Include="client\result\optional\.svn\text-base\NDEFURIResultParser.cs.svn-base" />
+    <None Include="common\.svn\all-wcprops" />
+    <None Include="common\.svn\entries" />
+    <None Include="common\.svn\prop-base\BitArray.cs.svn-base" />
+    <None Include="common\.svn\prop-base\BitMatrix.cs.svn-base" />
+    <None Include="common\.svn\prop-base\BitSource.cs.svn-base" />
+    <None Include="common\.svn\prop-base\ByteArray.cs.svn-base" />
+    <None Include="common\.svn\prop-base\ByteMatrix.cs.svn-base" />
+    <None Include="common\.svn\prop-base\CharacterSetECI.cs.svn-base" />
+    <None Include="common\.svn\prop-base\Collections.cs.svn-base" />
+    <None Include="common\.svn\prop-base\Comparator.cs.svn-base" />
+    <None Include="common\.svn\prop-base\DecoderResult.cs.svn-base" />
+    <None Include="common\.svn\prop-base\DefaultGridSampler.cs.svn-base" />
+    <None Include="common\.svn\prop-base\DetectorResult.cs.svn-base" />
+    <None Include="common\.svn\prop-base\ECI.cs.svn-base" />
+    <None Include="common\.svn\prop-base\GlobalHistogramBinarizer.cs.svn-base" />
+    <None Include="common\.svn\prop-base\GridSampler.cs.svn-base" />
+    <None Include="common\.svn\prop-base\HybridBinarizer.cs.svn-base" />
+    <None Include="common\.svn\prop-base\PerspectiveTransform.cs.svn-base" />
+    <None Include="common\.svn\text-base\BitArray.cs.svn-base" />
+    <None Include="common\.svn\text-base\BitMatrix.cs.svn-base" />
+    <None Include="common\.svn\text-base\BitSource.cs.svn-base" />
+    <None Include="common\.svn\text-base\ByteArray.cs.svn-base" />
+    <None Include="common\.svn\text-base\ByteMatrix.cs.svn-base" />
+    <None Include="common\.svn\text-base\CharacterSetECI.cs.svn-base" />
+    <None Include="common\.svn\text-base\Collections.cs.svn-base" />
+    <None Include="common\.svn\text-base\Comparator.cs.svn-base" />
+    <None Include="common\.svn\text-base\DecoderResult.cs.svn-base" />
+    <None Include="common\.svn\text-base\DefaultGridSampler.cs.svn-base" />
+    <None Include="common\.svn\text-base\DetectorResult.cs.svn-base" />
+    <None Include="common\.svn\text-base\ECI.cs.svn-base" />
+    <None Include="common\.svn\text-base\GlobalHistogramBinarizer.cs.svn-base" />
+    <None Include="common\.svn\text-base\GridSampler.cs.svn-base" />
+    <None Include="common\.svn\text-base\HybridBinarizer.cs.svn-base" />
+    <None Include="common\.svn\text-base\PerspectiveTransform.cs.svn-base" />
+    <None Include="common\detector\.svn\all-wcprops" />
+    <None Include="common\detector\.svn\entries" />
+    <None Include="common\detector\.svn\prop-base\MonochromeRectangleDetector.cs.svn-base" />
+    <None Include="common\detector\.svn\text-base\MonochromeRectangleDetector.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\all-wcprops" />
+    <None Include="common\reedsolomon\.svn\entries" />
+    <None Include="common\reedsolomon\.svn\prop-base\GF256.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\prop-base\GF256Poly.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\prop-base\ReedSolomonDecoder.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\prop-base\ReedSolomonEncoder.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\prop-base\ReedSolomonException.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\text-base\GF256.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\text-base\GF256Poly.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\text-base\ReedSolomonDecoder.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\text-base\ReedSolomonEncoder.cs.svn-base" />
+    <None Include="common\reedsolomon\.svn\text-base\ReedSolomonException.cs.svn-base" />
+    <None Include="datamatrix\.svn\all-wcprops" />
+    <None Include="datamatrix\.svn\entries" />
+    <None Include="datamatrix\.svn\prop-base\DataMatrixReader.cs.svn-base" />
+    <None Include="datamatrix\.svn\text-base\DataMatrixReader.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\all-wcprops" />
+    <None Include="datamatrix\decoder\.svn\entries" />
+    <None Include="datamatrix\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\prop-base\DataBlock.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\prop-base\Decoder.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\prop-base\Version.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\text-base\BitMatrixParser.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\text-base\DataBlock.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\text-base\Decoder.cs.svn-base" />
+    <None Include="datamatrix\decoder\.svn\text-base\Version.cs.svn-base" />
+    <None Include="datamatrix\detector\.svn\all-wcprops" />
+    <None Include="datamatrix\detector\.svn\entries" />
+    <None Include="datamatrix\detector\.svn\prop-base\Detector.cs.svn-base" />
+    <None Include="datamatrix\detector\.svn\text-base\Detector.cs.svn-base" />
+    <None Include="multi\.svn\all-wcprops" />
+    <None Include="multi\.svn\entries" />
+    <None Include="multi\.svn\prop-base\ByQuadrantReader.cs.svn-base" />
+    <None Include="multi\.svn\prop-base\GenericMultipleBarcodeReader.cs.svn-base" />
+    <None Include="multi\.svn\prop-base\MultipleBarcodeReader.cs.svn-base" />
+    <None Include="multi\.svn\text-base\ByQuadrantReader.cs.svn-base" />
+    <None Include="multi\.svn\text-base\GenericMultipleBarcodeReader.cs.svn-base" />
+    <None Include="multi\.svn\text-base\MultipleBarcodeReader.cs.svn-base" />
+    <None Include="multi\qrcode\.svn\all-wcprops" />
+    <None Include="multi\qrcode\.svn\entries" />
+    <None Include="multi\qrcode\.svn\prop-base\QRCodeMultiReader.cs.svn-base" />
+    <None Include="multi\qrcode\.svn\text-base\QRCodeMultiReader.cs.svn-base" />
+    <None Include="multi\qrcode\detector\.svn\all-wcprops" />
+    <None Include="multi\qrcode\detector\.svn\entries" />
+    <None Include="multi\qrcode\detector\.svn\prop-base\MultiDetector.cs.svn-base" />
+    <None Include="multi\qrcode\detector\.svn\prop-base\MultiFinderPatternFinder.cs.svn-base" />
+    <None Include="multi\qrcode\detector\.svn\text-base\MultiDetector.cs.svn-base" />
+    <None Include="multi\qrcode\detector\.svn\text-base\MultiFinderPatternFinder.cs.svn-base" />
+    <None Include="oned\.svn\all-wcprops" />
+    <None Include="oned\.svn\entries" />
+    <None Include="oned\.svn\prop-base\Code128Reader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\Code39Reader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\EAN13Reader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\EAN13Writer.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\EAN8Reader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\EAN8Writer.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\ITFReader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\MultiFormatOneDReader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\MultiFormatUPCEANReader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\OneDReader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\UPCAReader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\UPCEANReader.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\UPCEANWriter.cs.svn-base" />
+    <None Include="oned\.svn\prop-base\UPCEReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\Code128Reader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\Code39Reader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\EAN13Reader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\EAN13Writer.cs.svn-base" />
+    <None Include="oned\.svn\text-base\EAN8Reader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\EAN8Writer.cs.svn-base" />
+    <None Include="oned\.svn\text-base\ITFReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\MultiFormatOneDReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\MultiFormatUPCEANReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\OneDReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\UPCAReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\UPCEANReader.cs.svn-base" />
+    <None Include="oned\.svn\text-base\UPCEANWriter.cs.svn-base" />
+    <None Include="oned\.svn\text-base\UPCEReader.cs.svn-base" />
+    <None Include="pdf417\.svn\all-wcprops" />
+    <None Include="pdf417\.svn\entries" />
+    <None Include="pdf417\.svn\prop-base\PDF417Reader.cs.svn-base" />
+    <None Include="pdf417\.svn\text-base\PDF417Reader.cs.svn-base" />
+    <None Include="pdf417\decoder\.svn\all-wcprops" />
+    <None Include="pdf417\decoder\.svn\entries" />
+    <None Include="pdf417\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base" />
+    <None Include="pdf417\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base" />
+    <None Include="pdf417\decoder\.svn\prop-base\Decoder.cs.svn-base" />
+    <None Include="pdf417\decoder\.svn\text-base\BitMatrixParser.cs.svn-base" />
+    <None Include="pdf417\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base" />
+    <None Include="pdf417\decoder\.svn\text-base\Decoder.cs.svn-base" />
+    <None Include="pdf417\detector\.svn\all-wcprops" />
+    <None Include="pdf417\detector\.svn\entries" />
+    <None Include="pdf417\detector\.svn\prop-base\Detector.cs.svn-base" />
+    <None Include="pdf417\detector\.svn\text-base\Detector.cs.svn-base" />
+    <None Include="qrcode\.svn\all-wcprops" />
+    <None Include="qrcode\.svn\entries" />
+    <None Include="qrcode\.svn\prop-base\QRCodeReader.cs.svn-base" />
+    <None Include="qrcode\.svn\prop-base\QRCodeWriter.cs.svn-base" />
+    <None Include="qrcode\.svn\text-base\QRCodeReader.cs.svn-base" />
+    <None Include="qrcode\.svn\text-base\QRCodeWriter.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\all-wcprops" />
+    <None Include="qrcode\decoder\.svn\entries" />
+    <None Include="qrcode\decoder\.svn\prop-base\BitMatrixParser.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\DataBlock.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\DataMask.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\DecodedBitStreamParser.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\Decoder.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\ErrorCorrectionLevel.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\FormatInformation.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\Mode.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\prop-base\Version.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\BitMatrixParser.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\DataBlock.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\DataMask.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\DecodedBitStreamParser.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\Decoder.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\ErrorCorrectionLevel.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\FormatInformation.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\Mode.cs.svn-base" />
+    <None Include="qrcode\decoder\.svn\text-base\Version.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\all-wcprops" />
+    <None Include="qrcode\detector\.svn\entries" />
+    <None Include="qrcode\detector\.svn\prop-base\AlignmentPattern.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\prop-base\AlignmentPatternFinder.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\prop-base\Detector.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\prop-base\FinderPattern.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\prop-base\FinderPatternFinder.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\prop-base\FinderPatternInfo.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\text-base\AlignmentPattern.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\text-base\AlignmentPatternFinder.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\text-base\Detector.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\text-base\FinderPattern.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\text-base\FinderPatternFinder.cs.svn-base" />
+    <None Include="qrcode\detector\.svn\text-base\FinderPatternInfo.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\all-wcprops" />
+    <None Include="qrcode\encoder\.svn\entries" />
+    <None Include="qrcode\encoder\.svn\prop-base\BitVector.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\prop-base\BlockPair.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\prop-base\Encoder.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\prop-base\MaskUtil.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\prop-base\MatrixUtil.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\prop-base\QRCode.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\text-base\BitVector.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\text-base\BlockPair.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\text-base\Encoder.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\text-base\MaskUtil.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\text-base\MatrixUtil.cs.svn-base" />
+    <None Include="qrcode\encoder\.svn\text-base\QRCode.cs.svn-base" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties ProjectLinkReference="6431cf13-7a7b-4602-b96a-47cda6f0b008" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
+      <UserProperties ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" ProjectLinkReference="6431cf13-7a7b-4602-b96a-47cda6f0b008" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

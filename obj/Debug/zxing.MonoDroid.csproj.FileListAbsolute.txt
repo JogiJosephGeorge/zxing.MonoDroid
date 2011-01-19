@@ -1,0 +1,6 @@
+C:\Users\KnyghtMare\Documents\Visual Studio 2010\Projects\BarcodeScanner\zxing.MonoDroid\bin\Debug\zxing.MonoDroid.dll
+C:\Users\KnyghtMare\Documents\Visual Studio 2010\Projects\BarcodeScanner\zxing.MonoDroid\bin\Debug\zxing.MonoDroid.pdb
+C:\Users\KnyghtMare\Documents\Visual Studio 2010\Projects\BarcodeScanner\zxing.MonoDroid\bin\Debug\zxing.MonoDroid.dll.mdb
+C:\Users\KnyghtMare\Documents\Visual Studio 2010\Projects\BarcodeScanner\zxing.MonoDroid\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KnyghtMare\Documents\Visual Studio 2010\Projects\BarcodeScanner\zxing.MonoDroid\obj\Debug\zxing.MonoDroid.dll
+C:\Users\KnyghtMare\Documents\Visual Studio 2010\Projects\BarcodeScanner\zxing.MonoDroid\obj\Debug\zxing.MonoDroid.pdb
